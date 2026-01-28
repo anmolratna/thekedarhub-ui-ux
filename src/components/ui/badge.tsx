@@ -12,6 +12,12 @@ const badgeVariants = cva(
         secondary: "border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80",
         destructive: "border-transparent bg-destructive text-destructive-foreground hover:bg-destructive/80",
         outline: "text-foreground",
+        // Custom variants for ThekedarHub
+        success: "border-transparent bg-success/15 text-success font-medium",
+        warning: "border-transparent bg-warning/20 text-warning-foreground font-medium",
+        verified: "border-transparent bg-success/15 text-success font-medium gap-1",
+        pending: "border-transparent bg-warning/20 text-warning-foreground font-medium gap-1",
+        bid: "border-transparent bg-accent/15 text-accent font-medium",
       },
     },
     defaultVariants: {
